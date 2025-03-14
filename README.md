@@ -56,7 +56,7 @@ public method zeigeNaechstenPlatz () : List<int> {
 > -	Erhöhen Sie die Komplexität, indem Sie die Ebene selbst mit einem Raster ver-sehen. Passen Sie die Dimensionen an und alle Methoden. 
 > -	Optimieren Sie die Belegung, dass nicht nur der Timestamp für das Parken er-fasst wird, sondern auch eine maximale Parkdauer. So können Plätze in zeitli-chen Abhängigkeiten auch reserviert werden. (Beispiel: Parkplatz noch 63 Minu-ten belegt, danach gleich wieder reserviert durch anderen Kunden).
 
-## Noch tiefere Verteifung
+## Noch tiefere Vertiefung
 >[!Caution]
 > **Achtung! Noch nicht im Unterricht behandelt!**
 > Erweitern Sie das Programm, indem die Parkplätze selbst eine Klasse sind und bauen Sie eine Objektreferent mittels mehrdimensionalen Arrays auf. Geben Sie den Parkplätzen passende Eigenschaften. Die Zuordnung auf Ebenen erfolgt al-lerdings in der Klasse Parkhaus. 
