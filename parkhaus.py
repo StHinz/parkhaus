@@ -16,9 +16,6 @@ class Parkhaus:
     def getParkhausNr(self):
         return self.__parkhaus_nr
 
-    def getParkplaetze(self):
-        return self.__parkplaetze    
-
     # Belege einen spezifischen Patz auf einer Ebene
     def parkplatzBelegt(self,ebene,platz):
         if self.__parkplaetze[ebene][platz] == False:
@@ -26,7 +23,6 @@ class Parkhaus:
             return True
         else:
             return False
-
     
     # Sperre die ganze Ebene  
     def sperreEbene(self,ebene):
@@ -41,7 +37,8 @@ class Parkhaus:
                 return True
                 break
         return False
-    
+
+    # Gebe nächsten freien Platz zurück
     def zeigeNaechstenPlatz(self):
         freierPlatz = []
         for i in range(len(self.__parkplaetze)):
