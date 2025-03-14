@@ -12,7 +12,7 @@ sind an der Entwicklung beteiligt.
 
 > [!IMPORTANT]
 > **Der Aufbau des Array**:
-> [ [FALSE,FALSE,FALSE,FALSE],[FALSE,FALE,TRUE, …], …]
+> [ [FALSE,FALSE,FALSE,FALSE],[FALSE,FALE,FALSE, …], …]
 
 
 - [ ] c)	Es soll nun noch möglich sein, dass ein Parkplatz auf einer Ebene als belegt zu mar-kieren. Dafür muss eine Methode programmiert werden, die die Ebene und den Parkplatz auf der Ebene übergeben bekommt und diesen dann von frei auf belegt setzt (von FALSE auf TRUE). Es ist der Parkplatz bereits belegt wird False zurückge-geben, bei einer erfolgreichen Belegung wird True zurückgegeben. Nehmen Sie die Methode ins Klassendiagramm auf.
